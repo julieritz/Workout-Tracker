@@ -1,58 +1,39 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Workout Tracker
+## Link
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Description
+Track your workouts with this simple and easy to use workout tracker! 
 
-## User Story
+This app keeps track of all exercises in your workout and displays graphs summarizing all your workouts done in a week.
+## Table of Contents
+* [Installation](#installation)
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+* [Usage](#usage)
 
-## Business Context
+* [License](#license)
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+* [Contributors](#contributors)
 
-## Acceptance Criteria
+* [Tests](#tests)
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+* [Questions](#questions)
+## Installation
+Pull/clone this repository. Check dependencies and make sure to run npm i for all necessary- you will need express, dotenv, express-handlebars and mysql.
+## Usage
+Enter "npm run seed" to add the seed values to the app.
 
-The user should be able to:
+Navigate to the correct folder in your command line. Once there, enter "node server.js" in the command line to get the app started.
 
-  * Add exercises to a previous workout plan.
+Enter "localhost:8080" into your web browser to view the app.
+## License
+None
+## Contributors
+Julie Ritz
+## Tests
+None- use console.log if you need to troubleshoot something.
+## Questions
+Reach out to me if you have any questions, or open an issue in this repository!
 
-  * Add new exercises to a new workout plan.
+![image](https://user-images.githubusercontent.com/60047114/86396621-1e9cf180-bc57-11ea-8b77-56a09bfb673d.png)
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
-
-## Hints
- * You are creating `server.js`, `api-routes.js`, `html-routes.js` and a mongoose model.
-
- * Scan through the Javascript files in `public` to determine what api routes are needed.
-
- * We are not using Handlebars for this homework. There are 3 `html` files in the public. Which ones need aa route?
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the Github repository
+![image](https://user-images.githubusercontent.com/60047114/86396641-31afc180-bc57-11ea-83ab-b13f6b57e169.png)
