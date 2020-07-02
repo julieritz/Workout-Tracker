@@ -12,7 +12,7 @@ router.post("/api/workouts", ({ body }, res) => {
 });
 
 router.get("/api/workouts", (req, res) => {
-    db.Workout.find()
+    db.Workout.find().sort({ day: -1 }).limit(1)
         .then(data => {
             res.json(data);
         })
